@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "68a8ccbb2f3c020cefaf9075_48088cb5-ae95-4d12-a414-a078bef00f3f",
+  "id": "Content 📝_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Content 📝",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "var1",
+        "value": "\"\""
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+SELECT COUNT(c.company_id) FROM public."openincs_companies_v5" c LEFT JOIN public.user_company_status s ON s.company_id = c.company_id AND s.type = 'VC & PE Funds' AND s.user_id = {{appsmith.store.user_id}}
+WHERE (({{this.params.company || '<NULL>'}} = '<NULL>' OR LOWER(c.name) LIKE '%' || {{this.params.company?.toLowerCase()}} || '%')
+OR ({{this.params.company || '<NULL>'}} = '<NULL>' OR LOWER(c.industry) LIKE '%' || {{this.params.company?.toLowerCase()}} || '%'))
+AND ({{sel_status.selectedOptionValue || '<NULL>'}} = '<NULL>' OR s.status = {{sel_status.selectedOptionValue}})

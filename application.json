@@ -1,0 +1,88 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "DESKTOP"
+  },
+  "applicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": false
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#C7F3E3",
+  "evaluationVersion": 2,
+  "icon": "arrow-down",
+  "pages": [
+    {
+      "id": "Login 🔐",
+      "isDefault": true
+    },
+    {
+      "id": "View Companies 💼🤝",
+      "isDefault": false
+    },
+    {
+      "id": "View Banks 🏦",
+      "isDefault": false
+    },
+    {
+      "id": "View Institutional Capital",
+      "isDefault": false
+    },
+    {
+      "id": "View VC & PE funds 💸",
+      "isDefault": false
+    },
+    {
+      "id": "Search Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Courses 👩‍🏫",
+      "isDefault": false
+    },
+    {
+      "id": "Content 📝",
+      "isDefault": false
+    },
+    {
+      "id": "Modules 📚",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": false
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
+}

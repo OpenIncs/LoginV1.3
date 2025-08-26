@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "68a8ccbb2f3c020cefaf9075_72093877-7a46-4902-a307-ab2eed65e236",
+  "id": "View Institutional Capital_companies_utils",
+  "unpublishedCollection": {
+    "name": "companies_utils",
+    "pageId": "View Institutional Capital",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

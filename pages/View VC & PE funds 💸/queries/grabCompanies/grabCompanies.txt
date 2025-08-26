@@ -1,0 +1,2 @@
+SELECT c.*, s.status FROM public."openincs_companies_v5" c LEFT JOIN public.user_company_status s ON s.company_id = c.company_id AND s.type = 'VC & PE Funds' AND s.user_id = {{appsmith.store.user_id}}
+LIMIT {{tbl_companies.pageSize}} OFFSET {{(tbl_companies.pageNo - 1) * tbl_companies.pageSize}};

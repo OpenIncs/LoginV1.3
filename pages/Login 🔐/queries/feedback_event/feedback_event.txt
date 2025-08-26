@@ -1,0 +1,2 @@
+INSERT INTO public.feedback_events (event, query, success, type)
+VALUES ({{this.params.event}}, {{this.params.query}}, {{this.params.success || true}}, 'Auth')

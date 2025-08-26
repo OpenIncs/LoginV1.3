@@ -1,0 +1,69 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 28,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "uuhcahpt5v",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "",
+  "labelTextColor": "rgb(245, 245, 245)",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 14,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "onOptionChange": "{{companies_utils.refreshCompanyTable();}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 48,
+  "originalTopRow": 44,
+  "parentColumnSpace": 23.578125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Filter by status",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 23,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"Approved\",\n    \"value\": \"Approved\"\n  },\n  {\n    \"label\": \"Rejected\",\n    \"value\": \"Rejected\"\n  },\n\t{\n    \"label\": \"Watchlist\",\n    \"value\": \"Watchlist\"\n  }\n]",
+  "topRow": 24,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "1e89m61hrt",
+  "widgetName": "sel_status"
+}

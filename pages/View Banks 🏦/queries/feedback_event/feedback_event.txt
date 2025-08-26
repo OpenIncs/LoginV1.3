@@ -1,0 +1,2 @@
+INSERT INTO public.feedback_events (created_user, event, query, success, type)
+VALUES ({{appsmith.store.user_id || 'anonymous'}}, {{this.params.event}}, {{this.params.query}}, {{this.params.success || true}}, 'Bank')

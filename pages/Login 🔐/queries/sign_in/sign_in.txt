@@ -1,0 +1,4 @@
+{
+  "email": "{{input_email_SignIn.text}}",
+  "password": "{{input_password_SignIn.text}}"
+}

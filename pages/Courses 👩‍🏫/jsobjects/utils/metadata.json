@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "68a8ccbb2f3c020cefaf9075_1cc97597-d845-4cd6-88c4-5e5f1b796dab",
+  "id": "Courses 👩‍🏫_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Courses 👩‍🏫",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "var1",
+        "value": "\"\""
+      }
+    ]
+  }
+}

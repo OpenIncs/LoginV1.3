@@ -1,0 +1,12 @@
+SELECT
+	SUM(
+		CASE WHEN status = 'Approved' THEN 1 ELSE 0 END
+	) AS approved,
+	SUM(
+		CASE WHEN status = 'Rejected' THEN 1 ELSE 0 END
+	) AS rejected,
+	SUM(
+		CASE WHEN status = 'Watchlist' THEN 1 ELSE 0 END
+	) AS watch
+FROM public.user_company_status
+WHERE type = 'Bank' AND user_id = {{appsmith.store.user_id}};

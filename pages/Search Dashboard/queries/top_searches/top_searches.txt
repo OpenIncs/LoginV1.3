@@ -1,0 +1,13 @@
+WITH search as (SELECT 
+	type,
+  (string_to_array(query, ' | '))[1] as query
+FROM public.feedback_events
+where event = 'Search')
+select
+  query || ' (' || COALESCE(type,'') || ')' AS query,
+  count(query)
+FROM search
+WHERE query IS NOT null
+group by query, type
+order by count(query) desc
+LIMIT 5

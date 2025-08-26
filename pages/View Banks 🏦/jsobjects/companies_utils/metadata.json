@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "68a8ccbb2f3c020cefaf9075_ec9103a2-63ed-4af7-a668-22b5372cea0c",
+  "id": "View Banks 🏦_companies_utils",
+  "unpublishedCollection": {
+    "name": "companies_utils",
+    "pageId": "View Banks 🏦",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

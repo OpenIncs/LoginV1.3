@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "68a8ccbb2f3c020cefaf9075_bea53784-caa6-400c-817f-329ddc4d98de",
+  "id": "View Companies 💼🤝_companies_utils",
+  "unpublishedCollection": {
+    "name": "companies_utils",
+    "pageId": "View Companies 💼🤝",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

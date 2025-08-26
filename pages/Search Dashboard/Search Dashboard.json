@@ -1,0 +1,33 @@
+{
+  "gitSyncId": "68a8ccbb2f3c020cefaf9075_cd6b7cf8-18e7-42b0-991f-a302a5cb84ed",
+  "unpublishedPage": {
+    "customSlug": "company-search-history",
+    "isHidden": false,
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 480,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "minHeight": 560,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 54,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 94,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "Search Dashboard",
+    "slug": "search-dashboard"
+  }
+}
