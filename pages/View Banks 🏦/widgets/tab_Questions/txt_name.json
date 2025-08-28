@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 49,
+  "bottomRow": 50,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -48,7 +48,7 @@
   "text": "Contact Name",
   "textAlign": "LEFT",
   "textColor": "rgb(245, 245, 245)",
-  "topRow": 45,
+  "topRow": 46,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

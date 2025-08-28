@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 50,
+  "bottomRow": 51,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -50,7 +50,7 @@
   "text": "{{\ntbl_companies.selectedRow[\"First name\"] + \" \" + tbl_companies.selectedRow[\"Last name\"]\n}}",
   "textAlign": "LEFT",
   "textColor": "rgb(245, 245, 245)",
-  "topRow": 46,
+  "topRow": 47,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

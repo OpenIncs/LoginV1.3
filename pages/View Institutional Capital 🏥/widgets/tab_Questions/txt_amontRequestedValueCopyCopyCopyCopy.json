@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 66,
+  "bottomRow": 61,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -32,8 +32,8 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "originalBottomRow": 61,
-  "originalTopRow": 57,
+  "originalBottomRow": 66,
+  "originalTopRow": 59,
   "overflow": "NONE",
   "parentColumnSpace": 13.318603515625,
   "parentId": "nyt2r0gtg5",
@@ -50,7 +50,7 @@
   "text": "{{tbl_companies.selectedRow[\"Source 4\"]}}",
   "textAlign": "LEFT",
   "textColor": "rgb(245, 245, 245)",
-  "topRow": 59,
+  "topRow": 57,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

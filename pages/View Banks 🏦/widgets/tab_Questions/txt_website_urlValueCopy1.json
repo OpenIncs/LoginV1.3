@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 46,
+  "bottomRow": 47,
   "disableLink": false,
   "displayName": "Text",
   "dynamicBindingPathList": [
@@ -51,7 +51,7 @@
   "text": "{{tbl_companies.selectedRow[\"LinkedIn URL\"]}}",
   "textAlign": "LEFT",
   "textColor": "#231f20",
-  "topRow": 41,
+  "topRow": 42,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 58,
+  "bottomRow": 59,
   "disableLink": false,
   "displayName": "Text",
   "dynamicBindingPathList": [
@@ -33,7 +33,7 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "originalBottomRow": 59,
+  "originalBottomRow": 58,
   "originalTopRow": 54,
   "overflow": "NONE",
   "parentColumnSpace": 13.318603515625,

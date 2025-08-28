@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 41,
+  "bottomRow": 42,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -50,7 +50,7 @@
   "text": "{{tbl_companies.selectedRow.State}}",
   "textAlign": "LEFT",
   "textColor": "rgb(245, 245, 245)",
-  "topRow": 37,
+  "topRow": 38,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

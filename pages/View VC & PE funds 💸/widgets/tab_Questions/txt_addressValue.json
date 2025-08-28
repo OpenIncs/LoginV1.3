@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 20,
+  "bottomRow": 21,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -32,8 +32,8 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "originalBottomRow": 21,
-  "originalTopRow": 13,
+  "originalBottomRow": 20,
+  "originalTopRow": 12,
   "overflow": "NONE",
   "parentColumnSpace": 13.318603515625,
   "parentId": "nyt2r0gtg5",
@@ -51,7 +51,7 @@
   "text": "{{tbl_companies.selectedRow.employee_count_estimate}}",
   "textAlign": "LEFT",
   "textColor": "rgb(245, 245, 245)",
-  "topRow": 12,
+  "topRow": 13,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

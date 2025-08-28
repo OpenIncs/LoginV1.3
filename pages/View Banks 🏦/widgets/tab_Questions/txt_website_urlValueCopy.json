@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 22,
+  "bottomRow": 23,
   "disableLink": false,
   "displayName": "Text",
   "dynamicBindingPathList": [
@@ -54,7 +54,7 @@
   "text": "{{tbl_companies.selectedRow[\"Confidence score\"]}}",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.backgroundColor}}",
-  "topRow": 18,
+  "topRow": 19,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
