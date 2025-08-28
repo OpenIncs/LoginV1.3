@@ -1187,7 +1187,7 @@
   "rightColumn": 23,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
-  "tableData": "{{grabCompanies_v2.data}}",
+  "tableData": "{{grabBanks.data}}",
   "textColor": "rgb(30, 30, 30)",
   "textSize": "0.875rem",
   "topRow": 28,

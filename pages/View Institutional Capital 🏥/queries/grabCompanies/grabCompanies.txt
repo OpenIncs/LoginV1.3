@@ -1,0 +1,5 @@
+SELECT c.*, s.status FROM public."Institutional Capital" c LEFT JOIN public.user_company_status s ON s.company_id = c."Primary Key" AND s.type = 'Institutional Capital' AND s.user_id = {{appsmith.store.user_id}}
+WHERE (({{this.params.company || '<NULL>'}} = '<NULL>' OR LOWER(c."Firm Name") LIKE '%' || {{this.params.company?.toLowerCase()}} || '%'))
+AND ({{sel_status.selectedOptionValue || '<NULL>'}} = '<NULL>' OR s.status = {{sel_status.selectedOptionValue}})
+ORDER BY c."Contact Confidence score"
+LIMIT {{tbl_companies.pageSize}} OFFSET {{(tbl_companies.pageNo - 1) * tbl_companies.pageSize}};

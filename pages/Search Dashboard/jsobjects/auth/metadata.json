@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68a8ccbb2f3c020cefaf9075_70457197-e5a3-4cc9-a292-02cc184f0fcb",
+  "id": "Search Dashboard_auth",
+  "unpublishedCollection": {
+    "name": "auth",
+    "pageId": "Search Dashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

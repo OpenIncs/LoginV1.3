@@ -1,7 +1,8 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 21,
+  "bottomRow": 22,
+  "disableLink": false,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -15,9 +16,12 @@
     },
     {
       "key": "text"
+    },
+    {
+      "key": "textColor"
     }
   ],
-  "dynamicHeight": "FIXED",
+  "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
@@ -28,33 +32,32 @@
   "isLoading": false,
   "isVisible": true,
   "key": "9k4zks7jxw",
-  "leftColumn": 56,
+  "leftColumn": 35,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "originalBottomRow": 21,
-  "originalTopRow": 13,
+  "originalBottomRow": 24,
+  "originalTopRow": 20,
   "overflow": "NONE",
   "parentColumnSpace": 13.318603515625,
   "parentId": "nyt2r0gtg5",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 38,
   "searchTags": [
     "typography",
     "paragraph",
     "label"
   ],
-  "shouldScrollContents": true,
   "shouldTruncate": false,
-  "text": "{{tbl_companies.selectedRow.employee_count_estimate}}",
+  "text": "{{tbl_companies.selectedRow[\"Contact Confidence Score\"]}}",
   "textAlign": "LEFT",
-  "textColor": "rgb(245, 245, 245)",
-  "topRow": 13,
+  "textColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "topRow": 18,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "nn0qy9ex7w",
-  "widgetName": "txt_addressValue"
+  "widgetId": "0y8rrocucb",
+  "widgetName": "txt_website_urlValueCopy"
 }

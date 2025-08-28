@@ -1,0 +1,2 @@
+SELECT c.* FROM public."Investment Banks" c JOIN public.user_company_status u ON u.user_id = {{appsmith.store.user_id}} AND u.company_id = c."Primary Key" AND u.type = 'Institutional Capital' AND u.status = 'Approved'
+LIMIT {{tbl_companies.pageSize}} OFFSET {{(tbl_companies.pageNo - 1) * tbl_companies.pageSize}};

@@ -13,6 +13,6 @@ export default {
 				'success': grabCompanyCount.data[0].count > 0 ? 'true' : 'false'
 			})
 		)
-		grabBanks.run({"company": search_companies.text})
+		grabAssetManagers.run({"company": search_companies.text})
 	}
 }

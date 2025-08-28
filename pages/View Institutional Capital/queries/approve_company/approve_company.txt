@@ -1,2 +1,0 @@
-INSERT INTO public.user_company_status (company_id, user_id, status, type)
-VALUES ({{tbl_companies.selectedRow['Unique ID']}}, {{appsmith.store.user_id}}, 'Approved', 'Bank') ON CONFLICT (user_id, company_id, type) DO UPDATE SET status = EXCLUDED.status

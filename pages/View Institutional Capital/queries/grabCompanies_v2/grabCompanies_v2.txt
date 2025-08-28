@@ -1,5 +1,0 @@
-SELECT c.*, s.status FROM public."Investment Banks" c LEFT JOIN public.user_company_status s ON s.company_id = c."Unique ID" AND s.type = 'Bank' AND s.user_id = {{appsmith.store.user_id}}
-WHERE (({{this.params.company || '<NULL>'}} = '<NULL>' OR LOWER(c."Organization") LIKE '%' || {{this.params.company?.toLowerCase()}} || '%'))
-AND ({{sel_status.selectedOptionValue || '<NULL>'}} = '<NULL>' OR s.status = {{sel_status.selectedOptionValue}})
-ORDER BY c."Organization"
-LIMIT {{tbl_companies.pageSize}} OFFSET {{(tbl_companies.pageNo - 1) * tbl_companies.pageSize}};
