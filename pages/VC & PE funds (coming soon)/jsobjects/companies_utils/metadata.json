@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "68a8ccbb2f3c020cefaf9075_2894af8d-6fdc-4c7e-a41c-a7d1c1ba6a32",
+  "id": "VC & PE funds (coming soon)_companies_utils",
+  "unpublishedCollection": {
+    "name": "companies_utils",
+    "pageId": "VC & PE funds (coming soon)",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}
